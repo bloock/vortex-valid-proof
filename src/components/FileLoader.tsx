@@ -133,18 +133,18 @@ function FileLoader() {
             </Col>
             <Col lg={{ span: 16, order: 2 }} span={24} order={1}>
               <div className="min-h-full flex flex-col justify-center m-8 mr-16">
-                <p
-                  className="text-0 leading-14 text-white text-center lg:text-left font-bold mb-4"
-                  style={{ fontSize: "40px", lineHeight: "40px" }}
+                <h1
+                  className="text-0 text-center lg:text-left font-bold mb-8"
+                  style={{ fontSize: "40px", lineHeight: "50px" }}
                 >
                   {t("home.title")}
-                </p>
+                </h1>
 
                 <Row className="hidden lg:flex" gutter={2}>
                   <Col lg={12} span={24}>
                     <div className="h-full flex items-center text-white">
                       <div className="flex items-center justify-center">
-                        <PrivacyPolicy color="white" className="text-xl" />
+                        <PrivacyPolicy color="#cc0000" className="text-xl" />
                       </div>
                       <p className="leading-6 p-4">
                         {t("home.subtitle-verify-independently")}
@@ -155,7 +155,7 @@ function FileLoader() {
                   <Col lg={12} span={24}>
                     <div className="h-full flex items-center text-white">
                       <div className="flex items-center justify-center">
-                        <ShieldCheck color="white" className="text-xl" />
+                        <ShieldCheck color="#cc0000" className="text-xl" />
                       </div>
                       <p className="leading-6 p-4">
                         {t("home.subtitle-validate-digital")}
@@ -165,7 +165,7 @@ function FileLoader() {
                   <Col lg={12} span={24}>
                     <div className="h-full flex items-center text-white">
                       <div className="flex items-center justify-center">
-                        <Fingerprint color="white" className="text-xl" />
+                        <Fingerprint color="#cc0000" className="text-xl" />
                       </div>
                       <p className="leading-6 p-4">
                         {t("home.subtitle-enhance-security")}
@@ -176,7 +176,7 @@ function FileLoader() {
                   <Col lg={12} span={24}>
                     <div className="h-full flex items-center text-white">
                       <div className="flex items-center justify-center">
-                        <CloudUpload color="white" className="text-xl" />
+                        <CloudUpload color="#cc0000" className="text-xl" />
                       </div>
                       <p className="leading-6 p-4">
                         {t("home.subtitle-ensure-document")}
@@ -189,7 +189,7 @@ function FileLoader() {
           </Row>
         </Wrapper>
         <DownOutlined
-          className="-mt-14 cursor-pointer p-4 text-xl text-white z-50"
+          className="-mt-14 cursor-pointer p-4 text-xl z-50"
           onClick={() => {
             document.querySelector(`#info-section`)?.scrollIntoView();
           }}

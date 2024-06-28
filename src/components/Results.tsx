@@ -514,7 +514,7 @@ function Results() {
                 <Tag
                   icon={<CheckCircleOutlined />}
                   color="success"
-                  className="pl-4 bg-gray-100 flex items-center text-sm"
+                  className="pl-4  flex items-center text-sm"
                   style={{ width: "auto", height: "35px" }}
                 >
                   {t("results.verification.success")}
@@ -525,7 +525,7 @@ function Results() {
                 <Tag
                   icon={<CloseCircleOutlined />}
                   color="error"
-                  className="pl-8 bg-gray-100 flex items-center text-sm"
+                  className="pl-8  flex items-center text-sm"
                   style={{ width: "auto", height: "35px" }}
                 >
                   {t("results.verification.error")}
@@ -536,7 +536,7 @@ function Results() {
                 <Tag
                   icon={<InfoCircleOutlined />}
                   color="warning"
-                  className="p-4 bg-gray-100 flex items-center text-sm"
+                  className="p-4  flex items-center text-sm"
                   style={{ width: "auto", height: "35px" }}
                 >
                   {t("results.verification.invalid")}
@@ -576,8 +576,14 @@ function Results() {
               defaultActiveKey={[]}
             />
           </div>
-          <div className="flex flex-row justify-center p-4">
-            <Button type="primary" size="large" onClick={() => reset()}>
+          <div className="flex flex-row justify-center p-4 text-white">
+            <Button
+              type="primary"
+              size="large"
+              className="text-white"
+              color="white"
+              onClick={() => reset()}
+            >
               {t("results.verify-another")}
             </Button>
           </div>
