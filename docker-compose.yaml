@@ -6,10 +6,3 @@ services:
     container_name: validproof
     ports:
       - 4040:8080
-    environment:
-      VITE_API_HOST:
-      VITE_API_KEY:
-      VITE_PRIMARY_COLOR: "#cc0000"
-      VITE_LOGO: "https://www.dimensionvortex.com/wp-content/uploads/2020/05/vortex_dimension_digital-1.png"
-      VITE_BACKGROUND_IMAGE: "white"
-      VITE_FONT_FAMILY: "Open Sans"
