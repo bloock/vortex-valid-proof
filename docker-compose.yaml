@@ -3,6 +3,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
+      args:
+        BASE_URL: ${BASE_URL}
     container_name: validproof
     ports:
       - 4040:8080
