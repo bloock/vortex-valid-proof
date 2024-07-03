@@ -7,4 +7,4 @@ services:
         BASE_URL: ${BASE_URL}
     container_name: validproof
     ports:
-      - 4040:8080
+      - 8080:8080
