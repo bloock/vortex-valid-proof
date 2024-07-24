@@ -25,11 +25,7 @@ function App() {
       <Layout
         className="relative flex flex-col bg-cover bg-fixed"
         style={{
-          backgroundImage: `url(${
-            import.meta.env.VITE_BACKGROUND_IMAGE
-              ? import.meta.env.VITE_BACKGROUND_IMAGE
-              : backgroundImage
-          })`,
+          backgroundColor: "#004777",
           backgroundRepeat: "no-repeat",
         }}
       >
@@ -38,7 +34,7 @@ function App() {
           style={{ height: 64, paddingInline: 50 }}
         >
           <img
-            width={225}
+            width={200}
             className="py-9 px-4 z-0"
             src={
               import.meta.env.VITE_LOGO

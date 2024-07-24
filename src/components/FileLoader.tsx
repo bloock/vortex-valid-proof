@@ -84,7 +84,7 @@ function FileLoader() {
             }}
           >
             <p
-              className="text-0 leading-14 text-white font-bold mb-8 "
+              className="text-0 leading-14 text-secondary font-bold mb-8 "
               style={{ fontSize: "50px", lineHeight: "50px" }}
             >
               {t("home.drop.drop-here")}
@@ -103,7 +103,7 @@ function FileLoader() {
             <Col lg={{ span: 8, order: 1 }} span={24} order={2}>
               <div className="w-full h-full flex flex-col items-center justify-center p-8">
                 <div
-                  className="h-full flex flex-col items-center shadow-xl bg-white rounded-lg transition-opacity duration-500 ease-in-out p-12 pt-2"
+                  className="h-full flex flex-col items-center shadow-2xl bg-white rounded-lg transition-opacity duration-500 ease-in-out p-12 pt-2"
                   style={{
                     width: "15.5rem",
                     height: "20.5rem",
@@ -119,7 +119,7 @@ function FileLoader() {
                       className="flex items-center justify-center h-32  h-9 w-9 rounded-full mb-2 p-8 mt-8"
                       style={{ backgroundColor: token.colorPrimary }}
                     >
-                      <UploadOutlined className="text-white text-2xl" />
+                      <UploadOutlined className="text-secondary text-2xl" />
                     </div>
                     <p
                       className="text-lg pt-2 text-center"
@@ -132,7 +132,7 @@ function FileLoader() {
               </div>
             </Col>
             <Col lg={{ span: 16, order: 2 }} span={24} order={1}>
-              <div className="min-h-full flex flex-col justify-center m-8 mr-16">
+              <div className="min-h-full flex flex-col justify-center m-8 mr-16 text-secondary">
                 <h1
                   className="text-0 text-center lg:text-left font-bold mb-8"
                   style={{ fontSize: "40px", lineHeight: "50px" }}
@@ -142,9 +142,9 @@ function FileLoader() {
 
                 <Row className="hidden lg:flex" gutter={2}>
                   <Col lg={12} span={24}>
-                    <div className="h-full flex items-center text-white">
+                    <div className="h-full flex items-center text-secondary">
                       <div className="flex items-center justify-center">
-                        <PrivacyPolicy color="#cc0000" className="text-xl" />
+                        <PrivacyPolicy color="#DCF1FD" className="text-xl" />
                       </div>
                       <p className="leading-6 p-4">
                         {t("home.subtitle-verify-independently")}
@@ -153,9 +153,9 @@ function FileLoader() {
                   </Col>
 
                   <Col lg={12} span={24}>
-                    <div className="h-full flex items-center text-white">
+                    <div className="h-full flex items-center text-secondary">
                       <div className="flex items-center justify-center">
-                        <ShieldCheck color="#cc0000" className="text-xl" />
+                        <ShieldCheck color="#DCF1FD" className="text-xl" />
                       </div>
                       <p className="leading-6 p-4">
                         {t("home.subtitle-validate-digital")}
@@ -163,9 +163,9 @@ function FileLoader() {
                     </div>
                   </Col>
                   <Col lg={12} span={24}>
-                    <div className="h-full flex items-center text-white">
+                    <div className="h-full flex items-center text-secondary">
                       <div className="flex items-center justify-center">
-                        <Fingerprint color="#cc0000" className="text-xl" />
+                        <Fingerprint color="#DCF1FD" className="text-xl" />
                       </div>
                       <p className="leading-6 p-4">
                         {t("home.subtitle-enhance-security")}
@@ -174,9 +174,9 @@ function FileLoader() {
                   </Col>
 
                   <Col lg={12} span={24}>
-                    <div className="h-full flex items-center text-white">
+                    <div className="h-full flex items-center text-secondary">
                       <div className="flex items-center justify-center">
-                        <CloudUpload color="#cc0000" className="text-xl" />
+                        <CloudUpload color="#DCF1FD" className="text-xl" />
                       </div>
                       <p className="leading-6 p-4">
                         {t("home.subtitle-ensure-document")}
