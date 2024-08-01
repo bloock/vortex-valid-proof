@@ -34,8 +34,7 @@ function App() {
           style={{ height: 64, paddingInline: 50 }}
         >
           <img
-            width={200}
-            className="py-9 px-4 z-0"
+            className="py-8 px-4 z-0  w-[200px] lg:w-[220px]"
             src={
               import.meta.env.VITE_LOGO
                 ? import.meta.env.VITE_LOGO

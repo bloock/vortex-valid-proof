@@ -1,15 +1,10 @@
 import { DownOutlined, UploadOutlined } from "@ant-design/icons";
 import { Card, Col, Divider, Row, message, theme } from "antd";
-import Link from "antd/es/typography/Link";
 import {
-  CheckCircle,
   CloudUpload,
   Fingerprint,
-  LogNoAccess,
-  OneFingerSelectHandGesture,
   PrivacyPolicy,
   ShieldCheck,
-  XmarkCircle,
 } from "iconoir-react";
 import { useCallback, useEffect } from "react";
 import { DropzoneOptions, useDropzone } from "react-dropzone";
@@ -132,9 +127,9 @@ function FileLoader() {
               </div>
             </Col>
             <Col lg={{ span: 16, order: 2 }} span={24} order={1}>
-              <div className="min-h-full flex flex-col justify-center m-8 mr-16 text-secondary">
+              <div className="min-h-full flex flex-col justify-center p-8 lg:m-8  lg:mr-16 text-secondary">
                 <h1
-                  className="text-0 text-center lg:text-left font-bold mb-8"
+                  className="text-0 text-center lg:text-left font-bold lg:mb-8"
                   style={{ fontSize: "40px", lineHeight: "50px" }}
                 >
                   {t("home.title")}
